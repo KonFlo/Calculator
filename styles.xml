@@ -1,0 +1,45 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+        <style name="CalculatorButton">
+            <item name="android:layout_width">60dp</item>
+            <item name="android:layout_height">50dp</item>
+            <item name="android:layout_weight">1</item>
+            <item name="android:background">@android:color/background_light</item>
+            <item name="android:layout_margin">4dp</item>
+        </style>
+
+        <style name="CalculatorButton_Operator">
+            <item name="android:layout_width">80dp</item>
+            <item name="android:layout_height">50dp</item>
+            <item name="android:layout_weight">1</item>
+            <item name="android:background">@android:color/background_light</item>
+            <item name="android:textColor">@android:color/holo_blue_dark</item>
+            <item name="android:layout_margin">4dp</item>
+        </style>
+
+        <style name="CalculatorButton_Clear">
+            <item name="android:layout_width">60dp</item>
+            <item name="android:layout_height">60dp</item>
+            <item name="android:layout_weight">1</item>
+            <item name="android:background">@android:color/holo_red_dark</item>
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:layout_margin">4dp</item>
+        </style>
+
+        <style name="CalculatorButton_Converter">
+            <item name="android:layout_width">80dp</item>
+            <item name="android:layout_height">50dp</item>
+            <item name="android:layout_weight">5</item>
+            <item name="android:background">@android:color/holo_blue_dark</item>
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:layout_margin">5dp</item>
+        </style>
+
+</resources>
